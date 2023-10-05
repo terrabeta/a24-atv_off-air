@@ -1,0 +1,343 @@
+.w-layout-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    box-shadow: 0px 0px 15px 0px #535353;
+}
+
+.body {
+    background: rgb(66,35,169);
+    background: linear-gradient(0deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 40%, rgba(230,14,39,1) 76%);
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+}
+
+.date-clock {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgb(66,35,169);
+    background: linear-gradient(90deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 44px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.ttl-grid {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.mega-strm-ttl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(66,35,169);
+    background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    z-index: 500;
+}
+
+//.mega-strm-live-vid {
+    box-shadow: 0px 0px 15px 0px #242424;
+    z-index: 20;   
+}
+
+.alpha-strm-ttl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(66,35,169);
+    background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    z-index: 500;
+}
+
+//.alpha-strm-live-vid {
+    box-shadow: 0px 0px 15px 0px #242424;
+    z-index: 10;   
+}
+
+.ert1-strm-ttl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(66,35,169);
+    background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    z-index: 500;
+}
+
+//.ert1-strm-live-vid {
+    box-shadow: 0px 0px 15px 0px #242424;
+    z-index: 10;   
+}
+
+.skai-strm-ttl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(66,35,169);
+    background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    z-index: 500;
+}
+
+//.skai-strm-live-vid {
+    box-shadow: 0px 0px 15px 0px #242424;
+    z-index: 20;   
+}
+
+.ant1-strm-ttl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(66,35,169);
+    background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+    z-index: 500;
+}
+
+//.ant1-strm-live-vid {
+    box-shadow: 0px 0px 15px 0px #242424;
+    z-index: 10;   
+}
+
+.open-strm-ttl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(66,35,169);
+    background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    z-index: 500;
+}
+
+//.open-strm-live-vid {
+    box-shadow: 0px 0px 15px 0px #242424;
+    z-index: 10;   
+}
+
+.action24-strm-ttl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(66,35,169);
+    background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    z-index: 500;
+}
+
+//.action24-strm-live-vid {
+    box-shadow: 0px 0px 15px 0px #242424;
+    z-index: 10;   
+}
+
+.atticatv-strm-ttl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(66,35,169);
+    background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    z-index: 500;
+}
+
+//.atticatv-strm-live-vid {
+    box-shadow: 0px 0px 15px 0px #242424;
+    z-index: 10;   
+}
+
+.skai-strm-ttl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(66,35,169);
+    background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+    color: #ddeaff;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    z-index: 500;
+}
+
+.live-vid-grid {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.mega-strm-ttl-mob-view {
+    display: none;
+}
+
+.alpha-strm-ttl-mob-view {
+    display: none;
+}
+
+.ert1-strm-ttl-mob-view {
+    display: none;
+}
+
+.skai-strm-ttl-mob-view {
+    display: none;
+}
+
+.ant1-strm-ttl-mob-view {
+    display: none;
+}
+
+.open-strm-ttl-mob-view {
+    display: none;
+}
+
+.action24-strm-ttl-mob-view {
+    display: none;
+}
+
+.atticatv-strm-ttl-mob-view {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .date-clock {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .ttl-grid {
+        display: none;
+    }
+
+    .live-vid-grid {
+        display: block;
+    }
+
+    .mega-strm-ttl-mob-view {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: rgb(66,35,169);
+        background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+        color: #ddeaff;
+        font-size: 25px;
+        text-align: center;
+        z-index: 500;
+    }
+
+    .alpha-strm-ttl-mob-view {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: rgb(66,35,169);
+        background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+        color: #ddeaff;
+        font-size: 25px;
+        text-align: center;
+        z-index: 500;
+    }
+
+    .ert1-strm-ttl-mob-view {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: rgb(66,35,169);
+        background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+        color: #ddeaff;
+        font-size: 25px;
+        text-align: center;
+        z-index: 500;
+    }
+
+    .skai-strm-ttl-mob-view {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: rgb(66,35,169);
+        background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+        color: #ddeaff;
+        font-size: 25px;
+        text-align: center;
+        z-index: 500;
+    }
+
+    .ant1-strm-ttl-mob-view {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: rgb(66,35,169);
+        background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+        color: #ddeaff;
+        font-size: 25px;
+        text-align: center;
+        z-index: 500;
+    }
+
+    .atticatv-strm-ttl-mob-view {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: rgb(66,35,169);
+        background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+        color: #ddeaff;
+        font-size: 25px;
+        text-align: center;
+        z-index: 500;
+    }
+
+    .action24-strm-ttl-mob-view {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: rgb(66,35,169);
+        background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+        color: #ddeaff;
+        font-size: 25px;
+        text-align: center;
+        z-index: 500;
+    }
+
+    .open-strm-ttl-mob-view {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: rgb(66,35,169);
+        background: linear-gradient(270deg, rgba(3,46,122,1) 0%, rgba(0,150,255,1) 61%, rgba(230,14,39,1) 100%);
+        color: #ddeaff;
+        font-size: 25px;
+        text-align: center;
+        background-clip: border-box;
+        -webkit-text-fill-color: inherit;
+        z-index: 500;
+    }
+}
